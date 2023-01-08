@@ -15,6 +15,7 @@ msg = msg:lower()
             cmd = string.sub(msg,2)
         end 
         if cmd == 'bring' then
+        print("Brought")
         end
     end
 end)
